@@ -1,0 +1,54 @@
+.cat-list-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    margin-top: 60px;
+}
+
+.cat-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+}
+
+.cat-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+
+.cat-info {
+    padding: 10px;
+    position: relative;
+
+}
+
+.cat-name {
+    margin: 0;
+}
+
+.delete-button {
+    position: absolute;
+    top: -200px;
+    right: 10px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s;
+}
+
+.delete-button:hover {
+    background-color: #d32f2f;
+    transform: scale(1.05);
+}
