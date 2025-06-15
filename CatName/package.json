@@ -5,8 +5,8 @@
   "type": "module",
   "homepage": "https://Marvyn686.github.io/TaskCat.io",
   "scripts": {
-    "predepoy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
